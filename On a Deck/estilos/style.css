@@ -1,0 +1,135 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-color: #F2EBE3;
+}
+
+
+
+header{
+    margin-top: 20px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+li{
+    display: inline-block;
+    margin: 10px;
+}
+nav > ul > li{
+    color: #6C6C6C;
+    font-weight: bold;
+}
+nav > div > a#try_button{
+    margin-left: 10px;
+    background-color: #153215;
+    color: white;
+    border-radius: 3px;
+    padding: 8px;
+    text-decoration: none;
+    
+}
+
+nav > div > a#login{
+    color: #6C6C6C;
+    text-decoration: none;
+    
+}
+
+main{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    
+}
+
+main  h2{
+    width: 650px;
+    font-size: 34pt;
+}
+
+#tel{ 
+    color: #EDAF11
+}
+
+
+/* Primeira div*/
+
+main > div > p#descricao_ondeck{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16pt;
+    width: 590px;
+    
+}
+
+main > div > p> a#link{
+    color: white;
+    text-decoration: none;
+    margin-top: 50px;
+    padding: 8px;
+
+}
+
+main > div > p#link_p{
+    width: fit-content;
+    background-color: #153215;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    margin-bottom: 30px;
+    border-radius: 3px;
+}
+
+/*Segunda div*/
+
+div#classificacoes{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+
+div#imagem{  
+    width: 400px;
+    height: 400px;
+    background-image: url('../Imagens/Hero_Image.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+/* Section final */
+
+section > h2{
+    color: #6C6C6C;
+    font-size: 14pt;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: lighter;
+} 
+
+section > div{
+    display: flex;
+    justify-content: center;
+    
+}
+
+section > div > img{
+    margin: 14px;
+
+    
+}
