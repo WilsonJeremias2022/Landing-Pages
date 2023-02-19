@@ -133,3 +133,15 @@ section > div > img{
 
     
 }
+
+
+/* Dropdown */
+
+#dropdown{
+    position: relative;
+    display: inline-block;
+    width: 500px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
